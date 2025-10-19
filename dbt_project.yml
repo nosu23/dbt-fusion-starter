@@ -1,0 +1,12 @@
+name: 'dbt_fusion_minimal'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_fusion_minimal'
+
+model-paths: ["models"]
+clean-targets: ["target"]
+
+models:
+  dbt_fusion_minimal:
+    +materialized: table
