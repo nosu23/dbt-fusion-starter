@@ -4,6 +4,7 @@ A minimal example project for the Rust-based dbt Fusion engine.
 
 ## Files
 
+```
 dbt-fusion-starter/
 ├── dbt_project.yml          # Project configuration
 ├── profiles/                # Contains profiles.yml
@@ -12,6 +13,7 @@ dbt-fusion-starter/
 │   └── staging/
 │       └── stg_customers.sql
 └── README.md
+```
 
 ## Usage
 
@@ -25,3 +27,4 @@ You can run the project by specifying your GCP project ID as an environment vari
 
 ```bash
 DBT_PROJECT_ID="your-gcp-project-id" dbtf run --project-dir . --profiles-dir ./profiles
+```
